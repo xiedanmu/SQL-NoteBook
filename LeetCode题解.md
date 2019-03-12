@@ -3,7 +3,7 @@
 ```sql
 SELECT
   Score,
-  (SELECT count(distinct Score) FROM Scores WHERE Score >= s.Score) Rank --这里的Score就是上一行中的Score
+  (SELECT count(distinct Score) FROM Scores WHERE Score >= s.Score) Rank --这里的a.Score就是上一行中的Score
 FROM Scores s
 ORDER BY Score desc
 ```
