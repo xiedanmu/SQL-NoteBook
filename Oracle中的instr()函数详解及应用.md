@@ -1,4 +1,4 @@
-### 1.instr()函数的格式  （俗称：字符查找函数）
+### 1.instr()函数的格式  （俗称：返回字符位置函数）
 ```sql
 格式一：instr( string1, string2 )/instr(源字符串, 目标字符串)
 格式二：instr( string1, string2[,start_position [, nth_appearance ] ] )   /   instr(源字符串, 目标字符串, 起始位置, 匹配序号)
