@@ -4,6 +4,9 @@
 
     格式1：substr(string string, int a, int b);
     格式2：substr(string string, int a);
+    特殊3：DBMS_LOB.SUBSTR(col1,n,pos)
+           DBMS_LOB.SUBSTR(col1,10,1)表示从第1个字节开始取出10个字节
+           DBMS_LOB.SUBSTR(CLOB_VAR,32767)表示截取CLOB变量保存的全部数据
 
 解释：
 
